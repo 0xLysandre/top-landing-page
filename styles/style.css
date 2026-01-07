@@ -1,0 +1,121 @@
+/* General */
+
+body {
+    background-color: pink;
+    /* margin-bottom: 1000px; */
+}
+
+
+
+
+/* Beginning of hero section */
+
+
+#hero-section {
+    background-color: pink;
+}
+
+#top-right-links {
+    display: flex;
+    justify-content: end;
+}
+
+.top-right-link {
+    padding: 10px;
+}
+
+#hero-section-subsection {
+    display: flex;
+}
+
+#sign-up {
+    position: relative;
+    top:140px;
+    left:370px;
+}
+
+#hero-p-text {
+    position:relative;
+    left:725px;
+    top:50px;
+}
+
+#hero-main-text {
+    position:relative;
+    bottom:25px;
+    left:1160px;
+}
+
+
+/* End of hero section */
+
+/* Beginning of post-hero-section */
+
+#post-hero-section {
+    background-color: palevioletred;
+}
+
+#presentation-cards {
+    display: flex;
+    padding-left: 160px;
+}
+
+#post-hero-section-main-text {
+    text-align: center;
+    color: green;
+}
+
+.presentation-card {
+    padding: 20px;
+}
+
+/* End of post-hero-section */
+
+/* Beginning of quote-section */
+
+#quote-section {
+    text-align: center;
+    background-color: pink;
+}
+
+#quote-section p {
+    font-size: 24px;
+}
+
+/* End of quote-section */
+
+/* Beginning of CTA-section*/
+
+#cta-section {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+#selling-arguments {
+    font-size: 12px;
+}
+
+#cta-section-block {
+    background-color: red;
+    width:550px;
+}
+
+#cta-button {
+    height: 30px;
+    position: relative;
+    right: 150px;
+    top:70px;
+    background-color: blue;
+    border-color: darkblue;
+}
+
+/* End of cta-section */
+
+/* Start of footer-section */
+
+#footer {
+    text-align: center;
+    background-color: red;
+    padding-bottom: 25px;
+}

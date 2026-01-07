@@ -3,13 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/style.css">
     <title>Jonito's Kebab Place !</title>
 </head>
 <body>
     <div id="hero-section">
         <!-- margin-left = 50, margin-right = 50 -->
         <div id="hero-section-elements">
-            <img src="./images/Kebab.jpg" alt="Header Logo" width="50" height="auto">
+            <img id="header-logo" src="./images/Kebab.jpg" alt="Header Logo" width="50" height="auto">
             <!-- Top right links, apply display:flex, padding-right & padding-left = 5 -->
             <div id="top-right-links">
                 <a class='top-right-link' href="./templates/recettes.html">Vers nos recettes</a>
@@ -18,11 +19,50 @@
             </div>
             <div id="hero-section-subsection">
                 <h1 id="hero-main-text">Ce doner Kebab est génial !</h1>
-                <p>Nous aimons cuisiner avec amour.<br>Nous donnerions nos vies pour le Saint Kebab !</p>
-                <a href="./templates/sign-up.html">Sign Up</a>
-                <img src="./images/kebab-maker.jpg" alt="kebab maker" width="300" height="auto">
+                <p id="hero-p-text">Nous aimons cuisiner avec amour.<br>Nous donnerions nos vies pour le Saint Kebab !</p>
+                <a id="sign-up" href="./templates/sign-up.html">Sign Up</a>
+                <img id="kebab-maker-image" src="./images/kebab-maker.jpg" alt="kebab maker" width="300" height="auto">
             </div>
         </div>
+    </div>
+    <div id="post-hero-section">
+        <div id="post-hero-section-main-text"><h2>We love making kebab.</h2></div>
+        <div id="presentation-cards">
+            <div class="presentation-card">
+                <img alt="omar" src="./images/omar.jpg" width="350">
+                <p>Omar, Specialized in preparing the meat</p>
+            </div>
+            <div class="presentation-card">
+                <img alt="Farrah" src="./images/farrah.jpg" width="350">
+                <p>Farrah, specialized in sauces & condiments lead</p>
+            </div>
+            <div class="presentation-card">
+                <img alt="Hamza" src="./images/hamza.jpg" width="350">
+                <p>Hamza, specialized in grill/rotisserie & slicing</p>
+            </div>
+            <div class="presentation-card">
+                <img alt="Zayd" src="./images/zayd.jpg" width="350">
+                <p>Zayd, specialized in bread & assembly</p>
+            </div>
+        </div>
+    </div>
+    <div id="quote-section">
+        <p id="quote">
+            <em>
+                Listen closely, for a true kebab is a cycle of the soul:<br> Omar, you must build the mountain of meat so it breathes with the ancient dust of the earth;<br>Hamza, you must harvest the sun’s work only when the fat weeps against the flame;<br>Farrah, you must craft the alchemy of the moon and the embers so your sauces bridge the heart to the palate;<br>and Zayd, you must fold the bread as if sealing a promise, for a meal that falls apart is a broken word.
+            </em>
+        </p>
+        <cite>Hassan, the Old Carver (their father)</cite>
+    </div>
+    <div id="cta-section">
+        <div id="cta-section-block">
+            <h5>We also sell you our father's knowledge</h5>
+            <p id="selling-arguments">Master the spit with the secrets of the Old Carver,<br>where every shave and fold is a sacred craft.<br>Learn to build mountains of spice and harvest the sun’s work.<br>Join us to turn simple cooking into a timeless legacy<br>that bridges the heart to the palate.</p>
+        </div>
+        <button id="cta-button">Buy our course !</button>
+    </div>
+    <div id="footer">
+        <p>Copyright © Ultimate Kebab 2025</p>
     </div>
 </body>
 </html>
